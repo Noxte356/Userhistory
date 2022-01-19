@@ -10,14 +10,14 @@ public class UserHistory {
         System.out.println("2 - сохранить в файл.");
         int chooseSaver = scanner.nextInt();
         if (chooseSaver==1){
-            customerScanner.scan();
-           // customerFileSaver;
-            System.out.println("Данные сохранены в память.");
+            Customer customer = customerScanner.scan();
+           customerMemorySaver.save(customer);
+            System.out.println("Данные сохранены.");
 
         }
         else if (chooseSaver==2){
-            customerScanner.scan();
-           // customerFileSaver;
+            Customer customer = customerScanner.scan();
+            customerFileSaver.save(customer);
             System.out.println("Данные сохранены.");
 
         }

@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b70ef098-420c-4b78-990e-e6a7f7d13002" name="Changes" comment="Логика кода" />
+    <list default="true" id="b70ef098-420c-4b78-990e-e6a7f7d13002" name="Changes" comment="Git ignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/User history/CustomerFileSaver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/User history/CustomerFileSaver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/User history/CustomerMemorySaver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/User history/CustomerMemorySaver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/User history/UserHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/User history/UserHistory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomerFileSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerFileSaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomerMemorySaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerMemorySaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserHistory.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -66,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642578727634</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Git ignore">
+      <created>1642578979371</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642578979371</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Логика кода" />
-    <option name="LAST_COMMIT_MESSAGE" value="Логика кода" />
+    <MESSAGE value="Git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Git ignore" />
   </component>
 </project>
