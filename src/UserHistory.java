@@ -9,19 +9,17 @@ public class UserHistory {
         System.out.println("1 - сохранить на память.");
         System.out.println("2 - сохранить в файл.");
         int chooseSaver = scanner.nextInt();
-        if (chooseSaver==1){
+        if (chooseSaver == 1) {
             Customer customer = customerScanner.scan();
-           customerMemorySaver.save(customer);
+            customerMemorySaver.save(customer);
             System.out.println("Данные сохранены.");
 
-        }
-        else if (chooseSaver==2){
+        } else if (chooseSaver == 2) {
             Customer customer = customerScanner.scan();
             customerFileSaver.save(customer);
             System.out.println("Данные сохранены.");
 
         }
-
 
     }
 }

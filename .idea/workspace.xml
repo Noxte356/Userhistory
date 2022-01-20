@@ -11,6 +11,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/User history/UserHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/User history/UserHistory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CustomerFileSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerFileSaver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CustomerMemorySaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerMemorySaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomerScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerScanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UserHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserHistory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

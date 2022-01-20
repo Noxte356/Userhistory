@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CustomerScanner {
-    Customer scan(){
+    Customer scan() {
         Scanner scanner = new Scanner(System.in);
         Customer customer = new Customer();
         System.out.print("Введите имя --> ");
