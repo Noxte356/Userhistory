@@ -3,11 +3,10 @@ public class CustomerFileSaver implements CustomerSaver {
 
     public CustomerFileSaver() {
         this.customers = customers;
-        customers = new Customer[100];
+        customers = new Customer[10];
     }
 
     public void save(Customer customer) {
-        Customer[] customers = new Customer[100];
         for (int i = 0; i < customers.length; i++) {
             customers[i]=customer;
         }

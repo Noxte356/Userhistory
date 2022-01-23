@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b70ef098-420c-4b78-990e-e6a7f7d13002" name="Changes" comment="Завершение логики">
+    <list default="true" id="b70ef098-420c-4b78-990e-e6a7f7d13002" name="Changes" comment="WELL DONE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/User history/CustomerFileSaver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/User history/CustomerFileSaver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/User history/CustomerMemorySaver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/User history/CustomerMemorySaver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/User history/UserHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/User history/UserHistory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CustomerFileSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerFileSaver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CustomerMemorySaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerMemorySaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserHistory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642672638124</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="WELL DONE">
+      <created>1642674490987</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642674490987</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +114,7 @@
     <MESSAGE value="Логика кода" />
     <MESSAGE value="Git ignore" />
     <MESSAGE value="Завершение логики" />
-    <option name="LAST_COMMIT_MESSAGE" value="Завершение логики" />
+    <MESSAGE value="WELL DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="WELL DONE" />
   </component>
 </project>
