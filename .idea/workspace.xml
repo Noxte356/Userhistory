@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b70ef098-420c-4b78-990e-e6a7f7d13002" name="Changes" comment="WELL DONE">
+    <list default="true" id="b70ef098-420c-4b78-990e-e6a7f7d13002" name="Changes" comment="upgrade">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/User history/CustomerFileSaver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/User history/CustomerFileSaver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/User history/CustomerMemorySaver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/User history/CustomerMemorySaver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/User history/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/User history/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/User history/CustomerFileSaver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/User history/CustomerMemorySaver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/User history/CustomerSaver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/User history/CustomerSaver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/User history/UserHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/User history/UserHistory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CustomerFileSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerFileSaver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CustomerMemorySaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerMemorySaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomerFileSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerDataFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomerMemorySaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerDataMemory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomerSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerSaver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UserHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserHistory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +32,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="23soEhQ9MeLLdIaZAWHGSAL7GJY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -96,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642674490987</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="upgrade">
+      <created>1642949431435</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642949431435</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +134,18 @@
     <MESSAGE value="Git ignore" />
     <MESSAGE value="Завершение логики" />
     <MESSAGE value="WELL DONE" />
-    <option name="LAST_COMMIT_MESSAGE" value="WELL DONE" />
+    <MESSAGE value="upgrade" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CustomerDataMemory.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

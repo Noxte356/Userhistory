@@ -2,6 +2,11 @@ public class Customer {
     private String name;
     private String surname;
 
+    @Override
+    public String toString() {
+        return name + " " + surname;
+    }
+
     public String getName() {
         return name;
     }

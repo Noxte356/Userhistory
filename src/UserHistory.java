@@ -5,28 +5,37 @@ public class UserHistory {
         Scanner scanner = new Scanner(System.in);
         CustomerScanner customerScanner = new CustomerScanner();
         CustomerSaver customerSaver;
-        System.out.println("1 - сохранить на память.");
-        System.out.println("2 - сохранить в файл.");
+        System.out.println("1 - Память.");
+        System.out.println("2 - Файл.");
         int chooseSaver = scanner.nextInt();
         if (chooseSaver == 1) {
-            customerSaver = new CustomerMemorySaver();
-
-
-        } else if (chooseSaver == 2) {
-            customerSaver = new CustomerFileSaver();
+            customerSaver = new CustomerDataMemory();
         } else {
-            customerSaver = new CustomerFileSaver();
+            customerSaver = new CustomerDataFile();
         }
+
+
         while (true) {
-            Customer customer = customerScanner.scan();
-            if (customer.getName().equals("exit")){
-                break;
+            System.out.println("1 - Сохранить.");
+            System.out.println("2 - Выести на экран.");
+            System.out.println("3 - Завершить программу");
+            int chooseProcess = scanner.nextInt();
+            if (chooseProcess == 1) {
+                Customer customer = customerScanner.scan();
+                customerSaver.save(customer);
+                System.out.println("Данные сохранены.");
+            } else if (chooseProcess == 2) {
+                customerSaver.get();
+            } else {
+                System.out.println("Программа завершенна");
+                return;
             }
-            customerSaver.save(customer);
-            System.out.println("Данные сохранены.");
         }
+//            customerSaver.save(customer);
+//            System.out.println("Данные сохранены.");
     }
 }
+
 // 1. Юзер выбирает куда сохранять кастомеров файл или память
 // 2. пользователь вводит имя и фамилию
 // 3. комп сохраняет в файл или память
